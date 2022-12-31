@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Jokes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .container {
+            background-color: rgb(216, 138, 42);
+            border: 4px solid yellow;
+            margin: 0 auto;
+            width: 60%;
+            padding: 30px;
+            height: 600px
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 70px;
+        }
+
+        .section {
+            border: 3px solid rgb(79, 78, 80);
+            background-color: darkgray;
+            margin: 0 auto;
+            width: 60%;
+            height: 300px;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        #head {
+            font-size: 30px;
+        }
+
+        button {
+            position: absolute;
+            bottom: 0px;
+            left: 40%;
+            border-radius: 10px;
+            margin: 0 auto;
+            cursor: pointer;
+            padding: 10px;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>RANDOM JOKES GENERATOR</h1>
+        <div class="section">
+            <div id="head">CLICK THE BUTTON TO GET JOKES</div>
+            <button id="bttn">Click here</button>
+        </div>
+    </div>
+    <script src="randomJoke.js"></script>
+</body>
+
+</html>
